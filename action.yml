@@ -1,11 +1,11 @@
 name: 'my first container action'
 description: 'github action'
 author: 'Nisarg'
-input:
+inputs:
   myInput:
     description: 'gretting'
     required: true
-    default: 'hello'
+    default: 'default hello'
   outputs:
     myOutput:
       description: 'total memory'
