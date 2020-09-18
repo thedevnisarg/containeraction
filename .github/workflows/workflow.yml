@@ -13,5 +13,5 @@ jobs:
           myInput: 'Nisarg'
       - name: output
         run: |
-           echo ${{ steps.hello.output.memory }}
+           echo ${{ steps.hello.outputs.memory }}
            echo "total memory successfully output"
