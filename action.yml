@@ -6,9 +6,9 @@ inputs:
     description: 'gretting'
     required: true
     default: 'default hello'
-  outputs:
-    myOutput:
-      description: 'total memory'
-  runs:
-    using: 'docker'
-    image: 'Dockerfile'
+outputs:
+  myOutput:
+    description: 'total memory'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
