@@ -1,0 +1,14 @@
+name: 'my first container action'
+description: 'github action'
+author: 'Nisarg'
+input:
+  myInput:
+    description: 'gretting'
+    required: true
+    default: 'hello'
+  outputs:
+    myOutput:
+      description: 'total memory'
+  runs:
+    using: 'docker'
+    image: 'Dockerfile'
